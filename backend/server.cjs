@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3001;
 
 app.use(express.json());
 app.use(cors({
-  origin: ["https://chatapp-ui.onrender.com"]
+  origin: ["https://chatapp-ui-5fbl.onrender.com"]
 }));
 app.use(bodyParser.json());
 
